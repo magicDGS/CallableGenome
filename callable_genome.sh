@@ -92,7 +92,7 @@ mkdir -p $OUTPUT_FOLDER
 # First create the gem-index
 echo "Indexing reference"
 INDEXER="gem-indexer"
-if [ -z $(which gem-indexer) ]; then INDEXER="gem-do-index"; done
+if [ -z $(which gem-indexer) ]; then INDEXER="gem-do-index"; fi
 $INDEXER -i ${input} -o ${OUTPUT_FOLDER}/${input%.*}
 
 checkError $?
