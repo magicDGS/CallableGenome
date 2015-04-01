@@ -1,8 +1,6 @@
 CallableGenome
 ==============
 
- ## Content
-
 This repository contains a bash script to compute the callable genome using the
 [GEM-library](http://algorithms.cnag.cat/wiki/The_GEM_library) that should be
 install in the $PATH.
