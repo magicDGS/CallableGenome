@@ -13,7 +13,7 @@ Use the GEM-library (installed in your \$PATH) and a gap correction for obtain t
         -h  | --help	display this help and exit
         -i  | --input <INPUT>	FASTA file to compute the callable genome
         -l  | --length <INT>	read length for the mapping [default=100]
-        -g  | --gap_extension <INT>	expand the gap regions INT bp
+        -g  | --gap_extension <INT>	expand the gap regions INT bp [default=5]
         -t  | --threads <INT>	number of threads to use with gem-mappability [default=2]
 EOF
 }
